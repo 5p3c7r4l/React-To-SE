@@ -1,0 +1,37 @@
+{
+  "name": "react-to-se",
+  "version": "1.0.3-r-md2",
+  "description": "A small util tool to transform a react app into 3 txt files for StreamElements",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "compile": "npx tsc"
+  },
+  "keywords": [
+    "reactToSE"
+  ],
+  "author": "5p3c7r4l",
+  "license": "ISC",
+  "files": [
+    "dist/**/*"
+  ],
+  "devDependencies": {
+    "@testing-library/react": "^16.1.0",
+    "@types/express": "^5.0.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.5",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "express": "^4.21.2",
+    "jest": "^29.7.0",
+    "jest-config": "^29.7.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-scripts": "^5.0.1",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
+  }
+}
